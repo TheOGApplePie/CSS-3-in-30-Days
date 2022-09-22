@@ -3,3 +3,22 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+.sandbox{
+--primary-colour: orangered;
+--secondary-colour: hotpink;
+--base-measurement: 20px;
+}
+.sandbox .box{
+    text-align: center;
+--text-colour: #f3f3f3;
+color: var(--text-colour);
+background: var(--primary-colour);
+margin: var(--base-measurement);
+height: calc(var(--base-measurement) * 10);
+width: calc(var(--base-measurement) * 10);
+line-height: calc(var(--base-measurement) * 10);
+
+}
+.sandbox .box2{
+    background: var(--secondary-colour);
+}
